@@ -1,0 +1,27 @@
+{
+    "Type": "Blueprint",
+    "Class": "UCivilians",
+    "ParentClass": "/Script/Engine.DataAsset",
+    "Properties": {
+        "name": {
+            "Type": "FString",
+            "Value": "Civilians"
+        },
+        "type": {
+            "Type": "FString",
+            "Value": "Population Class"
+        },
+        "description": {
+            "Type": "FString",
+            "Value": "Humans living in simulated reality sandboxes, unaware of the larger conflict"
+        },
+        "awareness_level": {
+            "Type": "int32",
+            "Value": 0
+        },
+        "protection_status": {
+            "Type": "FString",
+            "Value": "Quarantined in simulations"
+        }
+    }
+}

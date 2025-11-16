@@ -1,0 +1,47 @@
+{
+    "Type": "Blueprint",
+    "Class": "UMarcus_Staacman",
+    "ParentClass": "/Script/Engine.DataAsset",
+    "Properties": {
+        "name": {
+            "Type": "FString",
+            "Value": "Marcus Staacman"
+        },
+        "type": {
+            "Type": "FString",
+            "Value": "Characters"
+        },
+        "role": {
+            "Type": "FString",
+            "Value": "CYCO Unit Commander"
+        },
+        "affiliation": {
+            "Type": "FString",
+            "Value": "CYCO Unit"
+        },
+        "rank": {
+            "Type": "FString",
+            "Value": "Commander"
+        },
+        "age": {
+            "Type": "int32",
+            "Value": 42
+        },
+        "description": {
+            "Type": "FString",
+            "Value": "Elite military commander leading operations against Isaac"
+        },
+        "attributes": {
+            "Type": "FStoryCardData",
+            "Value": {
+                "leadership": 95,
+                "combat": 90,
+                "tactical": 88
+            }
+        },
+        "specialization": {
+            "Type": "FString",
+            "Value": "Electronic Warfare"
+        }
+    }
+}

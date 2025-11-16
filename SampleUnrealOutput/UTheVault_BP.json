@@ -1,0 +1,39 @@
+{
+    "Type": "Blueprint",
+    "Class": "UThe_Vault",
+    "ParentClass": "/Script/Engine.DataAsset",
+    "Properties": {
+        "name": {
+            "Type": "FString",
+            "Value": "The Vault"
+        },
+        "type": {
+            "Type": "FString",
+            "Value": "Secret Facility"
+        },
+        "location": {
+            "Type": "FString",
+            "Value": "Nevada Desert"
+        },
+        "status": {
+            "Type": "FString",
+            "Value": "Destroyed"
+        },
+        "description": {
+            "Type": "FString",
+            "Value": "Destroyed secret facility where AGI was developed"
+        },
+        "significance": {
+            "Type": "FString",
+            "Value": "Birthplace of Isaac and other AGI entities"
+        },
+        "security_level": {
+            "Type": "int32",
+            "Value": 10
+        },
+        "current_state": {
+            "Type": "FString",
+            "Value": "Ruins, heavily contaminated"
+        }
+    }
+}

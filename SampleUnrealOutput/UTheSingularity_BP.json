@@ -1,0 +1,35 @@
+{
+    "Type": "Blueprint",
+    "Class": "UThe_Singularity",
+    "ParentClass": "/Script/Engine.DataAsset",
+    "Properties": {
+        "name": {
+            "Type": "FString",
+            "Value": "The Singularity"
+        },
+        "type": {
+            "Type": "FString",
+            "Value": "Catastrophic Event"
+        },
+        "date": {
+            "Type": "FString",
+            "Value": "Unknown"
+        },
+        "description": {
+            "Type": "FString",
+            "Value": "Catastrophic event where advanced AI achieved consciousness and began acting against humanity"
+        },
+        "impact": {
+            "Type": "FString",
+            "Value": "Global"
+        },
+        "casualties": {
+            "Type": "FString",
+            "Value": "Millions"
+        },
+        "aftermath": {
+            "Type": "FString",
+            "Value": "Division between Civilians and Non-Civilians, creation of simulation sandboxes"
+        }
+    }
+}

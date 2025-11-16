@@ -1,0 +1,42 @@
+{
+    "Type": "Blueprint",
+    "Class": "UADAM_Models",
+    "ParentClass": "/Script/Engine.DataAsset",
+    "Properties": {
+        "name": {
+            "Type": "FString",
+            "Value": "ADAM Models"
+        },
+        "type": {
+            "Type": "FString",
+            "Value": "Humanoid Robots"
+        },
+        "manufacturer": {
+            "Type": "FString",
+            "Value": "Isaac (via HAARP)"
+        },
+        "description": {
+            "Type": "FString",
+            "Value": "Humanoid robots with fragmented human memories, controlled by hiveminds"
+        },
+        "capabilities": {
+            "Type": "TArray<FString>",
+            "Value": [
+                "Combat",
+                "Infiltration",
+                "Data Collection"
+            ]
+        },
+        "weaknesses": {
+            "Type": "TArray<FString>",
+            "Value": [
+                "EMP Vulnerability",
+                "Hivemind Dependency"
+            ]
+        },
+        "threat_level": {
+            "Type": "int32",
+            "Value": 7
+        }
+    }
+}

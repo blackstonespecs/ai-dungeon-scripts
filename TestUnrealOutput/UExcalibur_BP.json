@@ -1,0 +1,38 @@
+{
+    "Type": "Blueprint",
+    "Class": "UExcalibur",
+    "ParentClass": "/Script/Engine.DataAsset",
+    "Properties": {
+        "name": {
+            "Type": "FString",
+            "Value": "Excalibur"
+        },
+        "type": {
+            "Type": "FString",
+            "Value": "Weapons"
+        },
+        "damage": {
+            "Type": "int32",
+            "Value": 50
+        },
+        "durability": {
+            "Type": "float",
+            "Value": 100.0
+        },
+        "is_legendary": {
+            "Type": "bool",
+            "Value": true
+        },
+        "special_abilities": {
+            "Type": "TArray<FString>",
+            "Value": [
+                "Holy Strike",
+                "Light Beam"
+            ]
+        },
+        "description": {
+            "Type": "FString",
+            "Value": "The legendary sword of kings"
+        }
+    }
+}

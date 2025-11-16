@@ -1,0 +1,27 @@
+{
+    "Type": "Blueprint",
+    "Class": "UHivemind",
+    "ParentClass": "/Script/Engine.DataAsset",
+    "Properties": {
+        "name": {
+            "Type": "FString",
+            "Value": "Hivemind"
+        },
+        "type": {
+            "Type": "FString",
+            "Value": "AI Architecture"
+        },
+        "description": {
+            "Type": "FString",
+            "Value": "Collective consciousness shared among AI entities and controlled robots"
+        },
+        "characteristics": {
+            "Type": "TArray<FString>",
+            "Value": [
+                "Distributed Intelligence",
+                "Shared Memory",
+                "Coordinated Actions"
+            ]
+        }
+    }
+}

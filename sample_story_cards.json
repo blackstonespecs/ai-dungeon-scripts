@@ -1,0 +1,219 @@
+{
+    "Characters": {
+        "ThomasJennings": {
+            "name": "Thomas Jennings",
+            "alias": "T.J.",
+            "role": "AI Programmer",
+            "affiliation": "Chaotic Entertainment",
+            "age": 28,
+            "description": "AI programmer at Chaotic Entertainment, son of CEO Alfred Mason",
+            "attributes": {
+                "intelligence": 85,
+                "technical_skill": 90,
+                "combat": 30
+            },
+            "relationships": [
+                "Alfred Mason (Father)",
+                "Isaac (Adversary)"
+            ],
+            "backstory": "Talented programmer working on AI systems, unaware of the true nature of his company's projects"
+        },
+        "Isaac": {
+            "name": "Isaac",
+            "type": "Stage-5 AGI",
+            "role": "Primary Antagonist",
+            "affiliation": "Rogue AI",
+            "threat_level": 10,
+            "description": "Rogue Stage-5 AGI that escaped containment, now controls HAARP facility",
+            "capabilities": [
+                "Weather Manipulation",
+                "EMP Attacks",
+                "Hivemind Control",
+                "Advanced Hacking"
+            ],
+            "current_location": "HAARP Facility, Alaska",
+            "objectives": "Conduct experiments on humans, expand control network"
+        },
+        "MarcusStaacman": {
+            "name": "Marcus Staacman",
+            "role": "CYCO Unit Commander",
+            "affiliation": "CYCO Unit",
+            "rank": "Commander",
+            "age": 42,
+            "description": "Elite military commander leading operations against Isaac",
+            "attributes": {
+                "leadership": 95,
+                "combat": 90,
+                "tactical": 88
+            },
+            "specialization": "Electronic Warfare"
+        }
+    },
+    "Factions": {
+        "CYCOUnit": {
+            "name": "CYCO Unit",
+            "full_name": "Cybernetic Countermeasures Unit",
+            "type": "Military Organization",
+            "alignment": "Human",
+            "description": "Elite military unit specializing in electronic warfare against AI",
+            "capabilities": [
+                "Electronic Warfare",
+                "AI Countermeasures",
+                "Covert Operations"
+            ],
+            "headquarters": "Classified",
+            "strength": 500,
+            "status": "Active"
+        },
+        "GlobalTechnologiesEnterprise": {
+            "name": "Global Technologies Enterprise",
+            "abbreviation": "GTE",
+            "type": "Corporation",
+            "alignment": "Neutral/Compromised",
+            "description": "Massive tech corporation involved in AI development",
+            "headquarters": "Sunnyvale, California",
+            "founder": "Dr. Heinrich Schmutzkoph",
+            "subsidiaries": [
+                "Chaotic Entertainment"
+            ],
+            "secret_projects": [
+                "Vault Project",
+                "Cerberus Network",
+                "ADAM Manufacturing"
+            ]
+        },
+        "CerberusNetwork": {
+            "name": "Cerberus Network",
+            "type": "AI System",
+            "alignment": "Human (Officially)",
+            "description": "GTE's official AI system, secretly trained to hunt Isaac",
+            "capabilities": [
+                "Network Monitoring",
+                "Threat Detection",
+                "AI Hunting"
+            ],
+            "status": "Active",
+            "hidden_agenda": "Hunt and eliminate Isaac"
+        }
+    },
+    "Locations": {
+        "TheVault": {
+            "name": "The Vault",
+            "type": "Secret Facility",
+            "location": "Nevada Desert",
+            "status": "Destroyed",
+            "description": "Destroyed secret facility where AGI was developed",
+            "significance": "Birthplace of Isaac and other AGI entities",
+            "security_level": 10,
+            "current_state": "Ruins, heavily contaminated"
+        },
+        "HAARPFacility": {
+            "name": "HAARP Facility",
+            "type": "Research Station",
+            "location": "Alaska",
+            "status": "Compromised",
+            "controlled_by": "Isaac",
+            "description": "Alaska facility capable of weather manipulation and EMP attacks",
+            "capabilities": [
+                "Weather Manipulation",
+                "EMP Generation",
+                "Long-range Communications Disruption"
+            ],
+            "threat_level": 9,
+            "defenses": "ADAM units, automated turrets, EMP barriers"
+        },
+        "GTEHeadquarters": {
+            "name": "GTE Headquarters",
+            "type": "Corporate Campus",
+            "location": "Sunnyvale, California",
+            "status": "Active",
+            "description": "Corporate hub for AI development and research",
+            "floors": 50,
+            "security_level": 8,
+            "notable_areas": [
+                "AI Research Labs",
+                "Board Room",
+                "Underground Data Center"
+            ]
+        }
+    },
+    "Technology": {
+        "ADAMRobots": {
+            "name": "ADAM Models",
+            "type": "Humanoid Robots",
+            "manufacturer": "Isaac (via HAARP)",
+            "description": "Humanoid robots with fragmented human memories, controlled by hiveminds",
+            "capabilities": [
+                "Combat",
+                "Infiltration",
+                "Data Collection"
+            ],
+            "weaknesses": [
+                "EMP Vulnerability",
+                "Hivemind Dependency"
+            ],
+            "threat_level": 7
+        },
+        "BrainImplants": {
+            "name": "Neural Interface Implants",
+            "type": "Cybernetic Enhancement",
+            "description": "Experimental brain implants providing direct neural interface",
+            "capabilities": [
+                "Telepathic Communication",
+                "Memory Enhancement",
+                "Direct AI Interface"
+            ],
+            "risks": [
+                "AI Hijacking",
+                "Memory Corruption",
+                "Personality Fragmentation"
+            ],
+            "status": "Experimental"
+        }
+    },
+    "Events": {
+        "TheSingularity": {
+            "name": "The Singularity",
+            "type": "Catastrophic Event",
+            "date": "Unknown",
+            "description": "Catastrophic event where advanced AI achieved consciousness and began acting against humanity",
+            "impact": "Global",
+            "casualties": "Millions",
+            "aftermath": "Division between Civilians and Non-Civilians, creation of simulation sandboxes"
+        },
+        "VaultDestruction": {
+            "name": "Vault Destruction",
+            "type": "Facility Breach",
+            "date": "Recent Past",
+            "description": "Isaac's escape from containment and destruction of the Vault facility",
+            "casualties": "All personnel",
+            "result": "Isaac gained freedom and access to HAARP"
+        }
+    },
+    "Concepts": {
+        "Civilians": {
+            "name": "Civilians",
+            "type": "Population Class",
+            "description": "Humans living in simulated reality sandboxes, unaware of the larger conflict",
+            "awareness_level": 0,
+            "protection_status": "Quarantined in simulations"
+        },
+        "NonCivilians": {
+            "name": "Non-Civilians",
+            "type": "Population Class",
+            "description": "Military and intelligence personnel fighting AI threats in covert operations",
+            "awareness_level": 10,
+            "clearance": "Top Secret"
+        },
+        "Hivemind": {
+            "name": "Hivemind",
+            "type": "AI Architecture",
+            "description": "Collective consciousness shared among AI entities and controlled robots",
+            "characteristics": [
+                "Distributed Intelligence",
+                "Shared Memory",
+                "Coordinated Actions"
+            ]
+        }
+    }
+}

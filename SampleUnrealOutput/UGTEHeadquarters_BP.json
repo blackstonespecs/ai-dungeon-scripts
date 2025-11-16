@@ -1,0 +1,43 @@
+{
+    "Type": "Blueprint",
+    "Class": "UGTE_Headquarters",
+    "ParentClass": "/Script/Engine.DataAsset",
+    "Properties": {
+        "name": {
+            "Type": "FString",
+            "Value": "GTE Headquarters"
+        },
+        "type": {
+            "Type": "FString",
+            "Value": "Corporate Campus"
+        },
+        "location": {
+            "Type": "FString",
+            "Value": "Sunnyvale, California"
+        },
+        "status": {
+            "Type": "FString",
+            "Value": "Active"
+        },
+        "description": {
+            "Type": "FString",
+            "Value": "Corporate hub for AI development and research"
+        },
+        "floors": {
+            "Type": "int32",
+            "Value": 50
+        },
+        "security_level": {
+            "Type": "int32",
+            "Value": 8
+        },
+        "notable_areas": {
+            "Type": "TArray<FString>",
+            "Value": [
+                "AI Research Labs",
+                "Board Room",
+                "Underground Data Center"
+            ]
+        }
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "Type": "Blueprint",
+    "Class": "UCerberus_Network",
+    "ParentClass": "/Script/Engine.DataAsset",
+    "Properties": {
+        "name": {
+            "Type": "FString",
+            "Value": "Cerberus Network"
+        },
+        "type": {
+            "Type": "FString",
+            "Value": "AI System"
+        },
+        "alignment": {
+            "Type": "FString",
+            "Value": "Human (Officially)"
+        },
+        "description": {
+            "Type": "FString",
+            "Value": "GTE's official AI system, secretly trained to hunt Isaac"
+        },
+        "capabilities": {
+            "Type": "TArray<FString>",
+            "Value": [
+                "Network Monitoring",
+                "Threat Detection",
+                "AI Hunting"
+            ]
+        },
+        "status": {
+            "Type": "FString",
+            "Value": "Active"
+        },
+        "hidden_agenda": {
+            "Type": "FString",
+            "Value": "Hunt and eliminate Isaac"
+        }
+    }
+}

@@ -1,0 +1,54 @@
+{
+    "Type": "Blueprint",
+    "Class": "UThomas_Jennings",
+    "ParentClass": "/Script/Engine.DataAsset",
+    "Properties": {
+        "name": {
+            "Type": "FString",
+            "Value": "Thomas Jennings"
+        },
+        "type": {
+            "Type": "FString",
+            "Value": "Characters"
+        },
+        "alias": {
+            "Type": "FString",
+            "Value": "T.J."
+        },
+        "role": {
+            "Type": "FString",
+            "Value": "AI Programmer"
+        },
+        "affiliation": {
+            "Type": "FString",
+            "Value": "Chaotic Entertainment"
+        },
+        "age": {
+            "Type": "int32",
+            "Value": 28
+        },
+        "description": {
+            "Type": "FString",
+            "Value": "AI programmer at Chaotic Entertainment, son of CEO Alfred Mason"
+        },
+        "attributes": {
+            "Type": "FStoryCardData",
+            "Value": {
+                "intelligence": 85,
+                "technical_skill": 90,
+                "combat": 30
+            }
+        },
+        "relationships": {
+            "Type": "TArray<FString>",
+            "Value": [
+                "Alfred Mason (Father)",
+                "Isaac (Adversary)"
+            ]
+        },
+        "backstory": {
+            "Type": "FString",
+            "Value": "Talented programmer working on AI systems, unaware of the true nature of his company's projects"
+        }
+    }
+}

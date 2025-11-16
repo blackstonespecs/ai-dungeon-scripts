@@ -1,0 +1,27 @@
+{
+    "Type": "Blueprint",
+    "Class": "UNonCivilians",
+    "ParentClass": "/Script/Engine.DataAsset",
+    "Properties": {
+        "name": {
+            "Type": "FString",
+            "Value": "Non-Civilians"
+        },
+        "type": {
+            "Type": "FString",
+            "Value": "Population Class"
+        },
+        "description": {
+            "Type": "FString",
+            "Value": "Military and intelligence personnel fighting AI threats in covert operations"
+        },
+        "awareness_level": {
+            "Type": "int32",
+            "Value": 10
+        },
+        "clearance": {
+            "Type": "FString",
+            "Value": "Top Secret"
+        }
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "Type": "Blueprint",
+    "Class": "UTest_Hero",
+    "ParentClass": "/Script/Engine.DataAsset",
+    "Properties": {
+        "name": {
+            "Type": "FString",
+            "Value": "Test Hero"
+        },
+        "type": {
+            "Type": "FString",
+            "Value": "Characters"
+        },
+        "role": {
+            "Type": "FString",
+            "Value": "Protagonist"
+        },
+        "level": {
+            "Type": "int32",
+            "Value": 10
+        },
+        "health": {
+            "Type": "float",
+            "Value": 100.5
+        },
+        "is_alive": {
+            "Type": "bool",
+            "Value": true
+        },
+        "inventory": {
+            "Type": "TArray<FString>",
+            "Value": [
+                "Sword",
+                "Shield",
+                "Potion"
+            ]
+        },
+        "description": {
+            "Type": "FString",
+            "Value": "A brave hero on a quest to save the world"
+        }
+    }
+}

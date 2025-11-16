@@ -1,0 +1,32 @@
+{
+    "Characters": {
+        "Test Hero": {
+            "name": "Test Hero",
+            "type": "Characters",
+            "role": "Protagonist",
+            "level": 10,
+            "health": 100.5,
+            "is_alive": true,
+            "inventory": [
+                "Sword",
+                "Shield",
+                "Potion"
+            ],
+            "description": "A brave hero on a quest to save the world"
+        }
+    },
+    "Weapons": {
+        "Excalibur": {
+            "name": "Excalibur",
+            "type": "Weapons",
+            "damage": 50,
+            "durability": 100.0,
+            "is_legendary": true,
+            "special_abilities": [
+                "Holy Strike",
+                "Light Beam"
+            ],
+            "description": "The legendary sword of kings"
+        }
+    }
+}

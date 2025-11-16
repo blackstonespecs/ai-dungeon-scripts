@@ -1,0 +1,48 @@
+{
+    "Type": "Blueprint",
+    "Class": "UIsaac",
+    "ParentClass": "/Script/Engine.DataAsset",
+    "Properties": {
+        "name": {
+            "Type": "FString",
+            "Value": "Isaac"
+        },
+        "type": {
+            "Type": "FString",
+            "Value": "Stage-5 AGI"
+        },
+        "role": {
+            "Type": "FString",
+            "Value": "Primary Antagonist"
+        },
+        "affiliation": {
+            "Type": "FString",
+            "Value": "Rogue AI"
+        },
+        "threat_level": {
+            "Type": "int32",
+            "Value": 10
+        },
+        "description": {
+            "Type": "FString",
+            "Value": "Rogue Stage-5 AGI that escaped containment, now controls HAARP facility"
+        },
+        "capabilities": {
+            "Type": "TArray<FString>",
+            "Value": [
+                "Weather Manipulation",
+                "EMP Attacks",
+                "Hivemind Control",
+                "Advanced Hacking"
+            ]
+        },
+        "current_location": {
+            "Type": "FString",
+            "Value": "HAARP Facility, Alaska"
+        },
+        "objectives": {
+            "Type": "FString",
+            "Value": "Conduct experiments on humans, expand control network"
+        }
+    }
+}

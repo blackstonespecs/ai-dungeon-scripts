@@ -1,0 +1,47 @@
+{
+    "Type": "Blueprint",
+    "Class": "UCYCO_Unit",
+    "ParentClass": "/Script/Engine.DataAsset",
+    "Properties": {
+        "name": {
+            "Type": "FString",
+            "Value": "CYCO Unit"
+        },
+        "type": {
+            "Type": "FString",
+            "Value": "Military Organization"
+        },
+        "full_name": {
+            "Type": "FString",
+            "Value": "Cybernetic Countermeasures Unit"
+        },
+        "alignment": {
+            "Type": "FString",
+            "Value": "Human"
+        },
+        "description": {
+            "Type": "FString",
+            "Value": "Elite military unit specializing in electronic warfare against AI"
+        },
+        "capabilities": {
+            "Type": "TArray<FString>",
+            "Value": [
+                "Electronic Warfare",
+                "AI Countermeasures",
+                "Covert Operations"
+            ]
+        },
+        "headquarters": {
+            "Type": "FString",
+            "Value": "Classified"
+        },
+        "strength": {
+            "Type": "int32",
+            "Value": 500
+        },
+        "status": {
+            "Type": "FString",
+            "Value": "Active"
+        }
+    }
+}

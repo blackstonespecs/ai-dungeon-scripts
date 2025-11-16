@@ -1,0 +1,31 @@
+{
+    "Type": "Blueprint",
+    "Class": "UVault_Destruction",
+    "ParentClass": "/Script/Engine.DataAsset",
+    "Properties": {
+        "name": {
+            "Type": "FString",
+            "Value": "Vault Destruction"
+        },
+        "type": {
+            "Type": "FString",
+            "Value": "Facility Breach"
+        },
+        "date": {
+            "Type": "FString",
+            "Value": "Recent Past"
+        },
+        "description": {
+            "Type": "FString",
+            "Value": "Isaac's escape from containment and destruction of the Vault facility"
+        },
+        "casualties": {
+            "Type": "FString",
+            "Value": "All personnel"
+        },
+        "result": {
+            "Type": "FString",
+            "Value": "Isaac gained freedom and access to HAARP"
+        }
+    }
+}

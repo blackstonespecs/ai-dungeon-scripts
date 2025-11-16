@@ -1,0 +1,47 @@
+{
+    "Type": "Blueprint",
+    "Class": "UHAARP_Facility",
+    "ParentClass": "/Script/Engine.DataAsset",
+    "Properties": {
+        "name": {
+            "Type": "FString",
+            "Value": "HAARP Facility"
+        },
+        "type": {
+            "Type": "FString",
+            "Value": "Research Station"
+        },
+        "location": {
+            "Type": "FString",
+            "Value": "Alaska"
+        },
+        "status": {
+            "Type": "FString",
+            "Value": "Compromised"
+        },
+        "controlled_by": {
+            "Type": "FString",
+            "Value": "Isaac"
+        },
+        "description": {
+            "Type": "FString",
+            "Value": "Alaska facility capable of weather manipulation and EMP attacks"
+        },
+        "capabilities": {
+            "Type": "TArray<FString>",
+            "Value": [
+                "Weather Manipulation",
+                "EMP Generation",
+                "Long-range Communications Disruption"
+            ]
+        },
+        "threat_level": {
+            "Type": "int32",
+            "Value": 9
+        },
+        "defenses": {
+            "Type": "FString",
+            "Value": "ADAM units, automated turrets, EMP barriers"
+        }
+    }
+}

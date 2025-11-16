@@ -1,0 +1,49 @@
+{
+    "Type": "Blueprint",
+    "Class": "UGlobal_Technologies_Enterprise",
+    "ParentClass": "/Script/Engine.DataAsset",
+    "Properties": {
+        "name": {
+            "Type": "FString",
+            "Value": "Global Technologies Enterprise"
+        },
+        "type": {
+            "Type": "FString",
+            "Value": "Corporation"
+        },
+        "abbreviation": {
+            "Type": "FString",
+            "Value": "GTE"
+        },
+        "alignment": {
+            "Type": "FString",
+            "Value": "Neutral/Compromised"
+        },
+        "description": {
+            "Type": "FString",
+            "Value": "Massive tech corporation involved in AI development"
+        },
+        "headquarters": {
+            "Type": "FString",
+            "Value": "Sunnyvale, California"
+        },
+        "founder": {
+            "Type": "FString",
+            "Value": "Dr. Heinrich Schmutzkoph"
+        },
+        "subsidiaries": {
+            "Type": "TArray<FString>",
+            "Value": [
+                "Chaotic Entertainment"
+            ]
+        },
+        "secret_projects": {
+            "Type": "TArray<FString>",
+            "Value": [
+                "Vault Project",
+                "Cerberus Network",
+                "ADAM Manufacturing"
+            ]
+        }
+    }
+}
